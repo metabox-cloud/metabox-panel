@@ -1,5 +1,6 @@
 Options +FollowSymLinks
 RewriteEngine On
+RewriteRule ^ping$ /index.php?act=ping [QSA,L]
 RewriteRule ^login$ /index.php?act=login [QSA,L]
 RewriteRule ^login/$ /index.php?act=login [QSA,L]
 RewriteRule ^logout/$ /index.php?act=logout [QSA,L]

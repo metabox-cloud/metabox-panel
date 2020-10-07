@@ -2,7 +2,10 @@
 include "includes/config.php";
 switch (nvl($_REQUEST["act"]))
 {
-
+	case "ping":
+		echo "yeh boi!";
+    break;
+	
     case "logs":
 	global $CFG, $uConfig, $_SESSION;
         if (!is_logged_in())
