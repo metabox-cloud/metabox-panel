@@ -1,0 +1,48 @@
+::Usenet
+Usenet|nzbget|linuxserver/nzbget|latest
+Usenet|sabnzbd|linuxserver/sabnzbd|latest
+::Torrent
+Torrent|deluge|linuxserver/deluge/latest
+Torrent|transmission|linuxserver/transmission|latest
+Torrent|qbittorrent|linuxserver/qbittorrent|latest
+Torrent|rutorrent|linuxserver/rutorrent|latest
+::Indexers
+Indexers|nzbhydra2|linuxserver/nzbhydra2|latest
+Indexers|jackett|linuxserver/jackett|latest
+::Storage
+Storage|nextcloud|linuxserver/nextcloud|latest
+Storage|owncloud|owncloud|latest
+::Media Server
+Media Server|plex|linuxserver/plex|latest
+Media Server|jellyfin|linuxserver/jellyfin|latest
+Media Server|emby|linuxserver/emby|latest
+Media Server|kodi|linuxserver/kodi-headless|latest
+Media Server|ubooquity|linuxserver/ubooquity|latest
+Media Server|beets|linuxserver/beets|latest
+::Search
+Search|radarr|linuxserver/radarr|latest
+Search|radarr v3|linuxserver/radarr|preview
+Search|sonarr|linuxserver/sonarr|latest
+Search|sonarr v3|linuxserver/sonarr|preview
+Search|lidarr|linuxserver/lidarr|latest
+Search|lidarr v3|linuxserver/lidarr|preview
+Search|sickchill|linuxserver/sickchill|latest
+Search|sickgear|linuxserver/sickgear|latest
+Search|medusa|linuxserver/medusa|latest
+Search|bazarr|linuxserver/bazarr|latest
+Search|mylar|linuxserver/mylar|latest
+Search|headphones|linuxserver/headphones|latest
+Search|couchpotato|linuxserver/couchpotato|latest
+::Statistics
+Statistics|tautulli|linuxserver/tautulli|latest
+::Other
+Other|lazylibrarian|linuxserver/lazylibrarian|latest
+::VPN
+VPN|openvpn-as|linuxserver/openvpn-as|latest
+::Telegram Bots
+Telegram Bots|smoke-ultimate|NULL/smoke-ultimate|latest
+Telegram Bots|radarr-bot|itsmegb/telegram-radarr-bot|latest||https://github.com/itsmegb/telegram-radarr-bot
+Telegram Bots|sonarr-bot|subzero79/docker-telegram-sonarr-bot||latest|https://hub.docker.com/r/subzero79/docker-telegram-sonarr-bot
+Telegram Bots|couchpotato-bot|subzero79/docker-telegram-couchpotato-bot||latest|https://hub.docker.com/r/subzero79/docker-telegram-couchpotato-bot
+Telegram Bots|sonarr-trakt-tv|metamma/sonarr-trakt-tv|latest||https://hub.docker.com/r/metamma/sonarr-trakt-tv
+

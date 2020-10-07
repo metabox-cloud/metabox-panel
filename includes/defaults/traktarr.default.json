@@ -1,0 +1,73 @@
+{
+  "automatic": {
+    "movies": {
+      "anticipated": 3,
+      "boxoffice": 10,
+      "interval": 20,
+      "popular": 3,
+      "trending": 3
+    },
+    "shows": {
+      "anticipated": 10,
+      "interval": 48,
+      "popular": 1,
+      "trending": 1
+    }
+  },
+  "core": {
+    "debug": false
+  },
+  "filters": {
+    "movies": {
+      "allowed_countries": [],
+      "allowed_languages": [],
+      "blacklisted_genres": [],
+      "blacklisted_max_runtime": 0,
+      "blacklisted_max_year": RADARRMAXYEAR,
+      "blacklisted_min_runtime": 45,
+      "blacklisted_min_year": RADARRMINYEAR,
+      "blacklisted_title_keywords": [],
+      "blacklisted_tmdb_ids": [],
+      "disabled_for": [],
+      "rotten_tomatoes": ""
+    },
+    "shows": {
+      "allowed_countries": [],
+      "allowed_languages": [],
+      "blacklisted_genres": [],
+      "blacklisted_max_runtime": 0,
+      "blacklisted_max_year": SONARRMAXYEAR,
+      "blacklisted_min_runtime": 15,
+      "blacklisted_min_year": SONARRMINYEAR,
+      "blacklisted_networks": [],
+      "blacklisted_title_keywords": [],
+      "blacklisted_tvdb_ids": [],
+      "disabled_for": []
+    }
+  },
+  "notifications": {
+    "verbose": true
+  },
+  "omdb": {
+    "api_key": "OMDBKEY"
+  },
+  "radarr": {
+    "api_key": "RADARRAPIKEY",
+    "minimum_availability": "RADARRMINAVAILABILITY",
+    "quality": "RADARRQUALITY",
+    "root_folder": "RADARRROOT",
+    "url": "RADARRURL"
+  },
+  "sonarr": {
+    "api_key": "SONARRAPIKEY",
+    "language": "English",
+    "quality": "SONARRQUALITY",
+    "root_folder": "SONARRROOT",
+    "tags": {},
+    "url": "SONARRURL"
+  },
+  "trakt": {
+    "client_id": "TRAKTID",
+    "client_secret": "TRAKTSECRET"
+  }
+}

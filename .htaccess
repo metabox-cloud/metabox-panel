@@ -1,0 +1,18 @@
+Options +FollowSymLinks
+RewriteEngine On
+RewriteRule ^login$ /index.php?act=login [QSA,L]
+RewriteRule ^login/$ /index.php?act=login [QSA,L]
+RewriteRule ^logout/$ /index.php?act=logout [QSA,L]
+RewriteRule ^logout$ /index.php?act=logout [QSA,L]
+RewriteRule ^dash$ /index.php?act=dash [QSA,L]
+RewriteRule ^dash/$ /index.php?act=dash [QSA,L]
+RewriteRule ^backup/$ /index.php?act=backup [QSA,L]
+RewriteRule ^backup$ /index.php?act=backup [QSA,L]
+RewriteRule ^config/$ /index.php?act=config [QSA,L]
+RewriteRule ^config$ /index.php?act=config [QSA,L]
+RewriteRule ^logs/$ /index.php?act=logs [QSA,L]
+RewriteRule ^logs$ /index.php?act=logs [QSA,L]
+RewriteRule ^traktarr/$ /index.php?act=traktarr [QSA,L]
+RewriteRule ^traktarr$ /index.php?act=traktarr [QSA,L]
+RewriteRule ^mounts$ /index.php?act=mounts [QSA,L]
+RewriteRule ^mount/(.*)/(.*)$ /index.php?act=mount&service=$1&id=$2 [QSA,L]

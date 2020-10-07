@@ -1,0 +1,33 @@
+ docker run -d \
+ --name rclone_gd_TDID \
+ --restart=unless-stopped \
+ --cap-add SYS_ADMIN \
+ --device /dev/fuse \
+ -e PUID=911 \
+ -e PGID=911 \
+ -e DISABLE_TDRIVE1=false \
+ -e DISABLE_GDRIVE=true \
+ -e DISABLE_MERGERFS=false \
+ -e DISABLE_WEB=false \
+ -e MOVE_BASE=/ \
+ -e ENCRYPTED=false \
+ -e ADDITIONAL_IGNORES=null \
+ -e DISABLE_UNIONFS_CHOWN=false \
+ -e DIR_CACHE_TIME=2m \
+ -e VFS_READ_CHUNK_SIZE=96M \
+ -e VFS_CACHE_MAX_AGE=675h \
+ -e VFS_READ_CHUNK_SIZE_LIMIT=1G \
+ -e VFS_CACHE_MODE=writes \
+ -e BUFFER_SIZE=48M \
+ -e RC_ENABLED=true \
+ -e RC_ADDR=0.0.0.0:5572 \
+ -e RC_USER=user \
+ -e RC_PASS=xxx \
+ -e POLL_INTERVAL=5m \
+ -p 8119:8110 \
+ --security-opt apparmor:unconfined \
+ -v /mb/config/rclone/TDNAME:/config \
+ -v /mb/cache/TDNAME:/cache \
+ -v /mb/logs:/logs \
+ -v /mb/mounts/TDNAME:/mnt/TDNAME:shared \
+ metabox-rclone:1.0
