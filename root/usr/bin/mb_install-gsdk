@@ -1,0 +1,2 @@
+#!/bin/bash
+/usr/bin/docker run -ti --name metaBox_gSDK  -v /mb/config/google.sdk:/root/.config metaboxcloud/alpine.gsdk.docker:latest gcloud auth login
